@@ -6,29 +6,61 @@
 	<link rel="stylesheet" type="text/css" href="css/estilo.css">
 </head>
 <body>
-	<header style="width: 100%; height: 100%"> 
+	
+	<header style="width: 100%; height: 10%"> 
 		<div class="menu">
 			<nav>
 				<a href="index.html">Home</a>
 				<a href="Noticias.html">Noticias</a>
 				<a href="Sobre.html">Sobre</a>
 				<a href="Sobre.html">Serviços</a>
+				<a href="Doação.html">Processo de Doação</a>
 			</nav>
-
-			<img src="home/lassu/Downloads/Tech mobile.png"
+			
+			<img src="img/cedir.png"
 			style="position: center; 
-					margin-left:250px ;
-					margin-top: 0px;
+					margin-left:0,5%;
+					margin-top: 0%;
 					width: 181px;
 					padding:0px;"> 
-		
 		</div>
 	</header>
-	<div class="fundo">
-	<div/>
-	
 
-	<div class="box"><h1>Processo de Doação</h1></div>
+	<div class="container">
 
+
+
+			<input type="radio" name="images" id="i1" checked>
+			<input type="radio" name="images" id="i2">
+			<input type="radio" name="images" id="i3">
+			<input type="radio" name="images" id="i4">
+
+			<div class="slide_img" id="primeira">
+				<img src="img/primeira.jpg" >
+				<label for = "i4" class="prev"></label>
+				<label for = "i2" class="nxt"></label>
+			</div>
+			
+			<div class="slide_img" id="segunda">
+				<img src="img/segunda.jpg">
+				<label for = "i1" class="prev"></label>
+				<label for = "i3" class="nxt"></label>
+			</div>
+			
+			<div class="slide_img" id="terceira">
+				<img src="img/terceira.jpg">
+				<label for = "i2" class="prev"></label>
+				<label for = "i4" class="nxt"></label>
+			</div>
+			
+			<div class="slide_img" id="quarta">
+				<img src="img/quarta.jpg">
+				<label for = "i3" class="prev"></label>
+				<label for = "i1" class="nxt"></label>
+			</div>
+
+
+
+	</div>
 </body>
 </html>
