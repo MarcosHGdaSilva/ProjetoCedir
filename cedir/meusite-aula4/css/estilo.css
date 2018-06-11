@@ -1,0 +1,67 @@
+body{
+	background-color:#f2f2f2; 
+	font-family: "Futura Bk BT", Helvetica, Arial;
+}
+
+.topo {
+	position:absolute;
+	left: 0px;
+}
+
+
+/* Adiciona uma cor ao fundo do menu de navegação*/
+.menu{
+		background-color: #0404B4; /*cor de fundo do menu*/
+		position: fixed;
+		top: 0;
+		width: 100%; /*lagura de 100% */
+	}
+
+.menu a {
+	float: left;
+	color: #f2f2f2; /*cor da fonte do link*/
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;/*retira o sublinhado do link*/
+	font-size: 23px;
+	font-family: "Futura Bk BT", Helvetica, Arial;
+}
+
+/*Muda a cor do link ao passar o mouse nele */
+.menu a:hover{
+	background-color: #0101DF; 
+}
+
+.imagens{
+	position: center; 
+	margin-left:0px ;
+	margin-top: 0px;
+	width: 150px;
+	padding:0px;
+}
+text1{
+	float: left;
+	color: #2F4F4F; /*cor da fonte do link*/
+	text-align: center;
+	padding: 10px 16px;
+	text-decoration: none;/*retira o sublinhado do link*/
+	font-size: 20px;
+	font-family: "Futura Bk BT", Helvetica, Arial;
+	position: center; 
+	margin-left:940px ;
+	margin-top: -450px;
+	width: 500px;
+
+}
+fundo{background-color:#2F4F4F;
+		width: 1509px;
+		height: 300px;
+		margin-left:0px ;
+		
+}
+
+}
+
+}
+}
+}
